@@ -10,8 +10,8 @@ Exemplo básico de como criar um CRUD com Node.js e Express.js usando PostgreSQL
 1 - Instale o Node.js e o npm em seu sistema.
 2 - Crie um novo diretório para o seu projeto.
 3 - Abra o diretório do projeto em um terminal e execute o comando ´npm init´ para criar um arquivo package.json com as informações básicas do seu projeto.
-4 - Instale as dependências do Node.js e do Express.js executando o comando ´npm install express body-parser mongoose --save´.
-5 - Crie um arquivo server.js e configure o servidor Express.js nele.
-6 - Crie um modelo para seus dados usando o Mongoose.
+4 - Instale as dependências do Express.js executando o comando ´npm install express --save´.
+5 - Instale as dependências do Banco de dados escolhido ex: PostgreSQL executando o comando ´npm install — save sequelize ´
+6 - Crie um modelo para seus dados usando o Sequelize, que irá criar as tabelas dentro do banco de dados.
 7 - Crie as rotas CRUD para seu modelo. 
 8 - Teste suas rotas CRUD usando um cliente HTTP como o Postman ou o cURL.

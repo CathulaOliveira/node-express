@@ -1,21 +1,34 @@
-const { Sequelize, DataTypes } = require('sequelize');
+const Sequelize = require('sequelize');
 
-const sequelize = new Sequelize('postgres://postgres:postgres@localhost:5432/node-express');
+const sequelize = new Sequelize({
+  dialect: 'postgres',
+  host: 'localhost',
+  username: 'postgres',
+  password: 'postgres',
+  database: 'node-express',
+});
 
-const User = sequelize.define('User', {
-  name: {
-    type: DataTypes.STRING,
+
+const User = sequelize.define('user', {
+  firstName: {
+    type: Sequelize.STRING,
+    allowNull: false
+  },
+  lastName: {
+    type: Sequelize.STRING,
     allowNull: false
   },
   email: {
-    type: DataTypes.STRING,
+    type: Sequelize.STRING,
     allowNull: false,
     unique: true
   },
   password: {
-    type: DataTypes.STRING,
+    type: Sequelize.STRING,
     allowNull: false
   }
 });
+
+sequelize.sync();
 
 module.exports = User;
