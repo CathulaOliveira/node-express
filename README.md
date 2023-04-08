@@ -34,11 +34,11 @@ Já o Express é mantido pela comunidade de desenvolvedores do Node.js. Embora o
 - Renderização de views: o Express permite que você renderize views HTML, facilitando a construção de páginas dinâmicas.
 
 #### Servidores Web disponíveis:
-- Apache HTTP Server - é um servidor HTTP de código aberto que pode ser usado com o Node.js por meio do módulo mod_proxy.
-- Nginx - é um servidor web de alto desempenho e escalabilidade, que pode ser usado com o Node.js por meio do módulo ngx_http_proxy_module.
-- Microsoft IIS - é um servidor web da Microsoft que pode ser usado com o Node.js por meio do módulo iisnode.
-- Node.js HTTP - é um módulo interno do Node.js que pode ser usado para criar um servidor HTTP.
-- Express.js - é um framework para Node.js que fornece uma camada de abstração para lidar com solicitações HTTP e facilita a criação de aplicativos web.
+- Heroku: uma plataforma de hospedagem em nuvem que oferece suporte para Node.js e outras linguagens de programação. O plano gratuito inclui 512 MB de RAM e 550 horas de uso mensal.
+- AWS Elastic Beanstalk: um serviço da Amazon Web Services que permite hospedar aplicativos em vários idiomas, incluindo Node.js. O plano gratuito inclui 750 horas de uso mensal para uma instância do Amazon EC2 t2.micro.
+- Google Cloud Platform: um serviço de nuvem oferecido pelo Google que permite hospedar aplicativos em várias linguagens de programação, incluindo Node.js. O plano gratuito inclui US$ 300 em créditos de uso livre durante o primeiro ano.
+- Firebase Hosting: um serviço de hospedagem para aplicativos móveis e web do Google. O Firebase Hosting suporta hospedagem para aplicativos Node.js, bem como vários outros idiomas. O plano gratuito inclui hospedagem para sites estáticos com largura de banda ilimitada e 1 GB de armazenamento.
+- Microsoft Azure: um serviço de nuvem oferecido pela Microsoft que suporta vários idiomas de programação, incluindo Node.js. O plano gratuito inclui um crédito de US$ 200 para uso em qualquer serviço do Azure durante o primeiro mês, além de 12 meses de serviços gratuitos limitados.
 
 #### Exemplo de como criar um CRUD com Node.js e Express.js usando PostgreSQL e o Sequelize como ORM:
 - Instale o Node.js e o npm em seu sistema.
