@@ -34,7 +34,7 @@ Já o Express é mantido pela comunidade de desenvolvedores do Node.js. Embora o
 
 #### Servidores Web disponíveis:
 - Heroku: uma plataforma de hospedagem em nuvem que oferece suporte para Node.js e outras linguagens de programação. O plano gratuito inclui 512 MB de RAM e 550 horas de uso mensal.
-- AWS Elastic Beanstalk: um serviço da Amazon Web Services que permite hospedar aplicativos em vários idiomas, incluindo Node.js. O plano gratuito inclui 750 horas de uso mensal para uma instância do Amazon EC2 t2.micro.
+- AWS Elastic Beanstalk: um serviço da Amazon Web Services que permite hospedar aplicativos em vários linguagens, incluindo Node.js. O plano gratuito inclui 750 horas de uso mensal para uma instância do Amazon EC2 t2.micro.
 - Google Cloud Platform: um serviço de nuvem oferecido pelo Google que permite hospedar aplicativos em várias linguagens de programação, incluindo Node.js. O plano gratuito inclui US$ 300 em créditos de uso livre durante o primeiro ano.
 - Firebase Hosting: um serviço de hospedagem para aplicativos móveis e web do Google. O Firebase Hosting suporta hospedagem para aplicativos Node.js, bem como vários outros idiomas. O plano gratuito inclui hospedagem para sites estáticos com largura de banda ilimitada e 1 GB de armazenamento.
 - Microsoft Azure: um serviço de nuvem oferecido pela Microsoft que suporta vários idiomas de programação, incluindo Node.js. O plano gratuito inclui um crédito de US$ 200 para uso em qualquer serviço do Azure durante o primeiro mês, além de 12 meses de serviços gratuitos limitados.
