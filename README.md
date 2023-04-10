@@ -22,7 +22,6 @@ Já o Express é mantido pela comunidade de desenvolvedores do Node.js. Embora o
 
 #### Devantagens:
 - Problemas de segurança: como o Node.js e o Express são relativamente novos, algumas vulnerabilidades ainda estão sendo descobertas e corrigidas.
-- Gerenciamento de dependências: o gerenciamento de dependências no Node.js pode ser complicado e requer um certo conhecimento técnico para gerenciar as versões corretas de pacotes.
 - Não é ideal para todas as situações: o Node.js e o Express são ideais para aplicativos leves e escaláveis, mas podem não ser a melhor escolha para aplicativos complexos ou que exigem alto desempenho em computação intensiva.
 
 #### Principais características Node.js + Express:
